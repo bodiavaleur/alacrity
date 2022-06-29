@@ -1,0 +1,12 @@
+export const HEADER_HIDDEN_THRESHOLD = 100;
+export const HEADER_SHOWN_THRESHOLD = 250;
+
+export const HEADER_STATE_INPUT = [
+  HEADER_HIDDEN_THRESHOLD,
+  HEADER_SHOWN_THRESHOLD,
+];
+
+export const HEADER_COLOR_OUTPUT = [
+  "rgba(255,255,255,0)",
+  "rgba(255,255,255,1)",
+];
